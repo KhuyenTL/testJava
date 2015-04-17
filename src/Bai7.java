@@ -25,6 +25,7 @@ public class Bai7{
 				result[i+1] = upperStr.charAt(i+1);
 			} else result[i+1] = lowerStr.charAt(i+1);
 		}
-		System.out.println(result);
+		String s = String.valueOf(result);
+		System.out.println(s);
 	}
 }

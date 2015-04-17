@@ -27,6 +27,8 @@ public class Bai6 {
 				result[i] = str.charAt(i);
 			}
 		}
-		System.out.println(result);		
+		//convert result to String.
+		String str1 = String.valueOf(result);
+		System.out.println(str1);		
 	}
 }
